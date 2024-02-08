@@ -1,3 +1,4 @@
+/* Removing vowels from the string*/
 import java.util.*;
 
 public class Main {
