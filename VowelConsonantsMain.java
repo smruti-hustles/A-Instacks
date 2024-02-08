@@ -18,7 +18,7 @@ public class VowelConsonantsMain
 	    for(int i=0;i<l;i++){
 	        char c=p[i];
 	        if(Character.isAlphabetic(c)){
-	        if(c=='a'||c=='e'||i=='o'||i=='u'||c=='A'||c=='E'||c=='I'||c=='O'||c=='U')
+	        if(c=='a'||c=='e'||c=='o'||c=='u'||c=='A'||c=='E'||c=='I'||c=='O'||c=='U')
 	        v+=1;
 	        else
 	        con+=1;
