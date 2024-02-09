@@ -11,4 +11,4 @@ print("You entered the following words:", words)
 res=sorted(words)
 print(f'words in sorted are {res}')
 for j in res:
-    print(j)
+    print(f"length of {j} is {len(j)}")
