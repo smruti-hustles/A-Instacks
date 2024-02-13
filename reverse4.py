@@ -8,3 +8,14 @@ if(l%4==0):
     print(a[::-1])
 else:
     print(-1)
+
+'''
+Write a Python program to access each character of a string in both forward and backward directions by using the while loop
+'''
+a=input()
+b=a[::-1]
+for i in a:
+    print(i,end=" ")
+print("")    
+for i in b:
+    print(i,end=" ") 
